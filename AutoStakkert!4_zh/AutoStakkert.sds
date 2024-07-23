@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<desktop scan="2" scanned="20240723094944" built="20240723095303" lang="zh" pane="TLogPane" col="4" row="panelTop.panelTopRight.checkClearAP.Caption">
+<desktop scan="2" scanned="20240723094944" built="20240723215929" lang="zh" pane="TLogPane" col="3" row="PanelAP.groupAutoAP.checkSaturn.Hint">
   <language id="zh" autoime="0" autokeyboard="0"/>
   <triggers>
     <item class="TValidateTrigger" position="6" enabled="0"/>
@@ -13,6 +13,7 @@
       <item class="TTranslationColumn" lang="zh" width="345"/>
     </columns>
     <params options="[toIgnoreHotkeyCharacters,toAcceptWildChars,toSearchWithinAllColumns]" direction="sdBackward">
+      <findtext>multi</findtext>
       <findtext>Error</findtext>
       <findtext>used</findtext>
       <findtext>click in image</findtext>
@@ -25,6 +26,6 @@
     <item>All</item>
     <item>D:\Program Files\AutoStakkert_4.0.11_x64\AutoStakkert.exe</item>
     <item>Forms</item>
-    <item>TFORMBROWSE</item>
+    <item>TFORMIMAGE</item>
   </path>
 </desktop>

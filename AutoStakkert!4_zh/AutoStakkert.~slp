@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<document created="20240722221248" version="4.0.374" date="20240723095538" scan="2" scanned="20240723094944">
+<document created="20240722221248" version="4.0.374" date="20240723215819" scan="2" scanned="20240723094944">
   <lang id="zh"/>
   <source class="TDelphiSource" name="D:\Program Files\AutoStakkert_4.0.11_x64\AutoStakkert.exe" original="en-US" encoding="utf-8" date="20210611102600" usebom="1" widestringusage="wsYes" stringresourcecontext="rcStringValue">
     <resources>
@@ -238,7 +238,7 @@
             <component class="TVisButton" name="btnResend" type="TButton">
               <row id="Caption">
                 <native>(re)send stack files</native>
-                <lang id="zh" date="20240723001259" status="3">（重新）发送堆栈文件</lang>
+                <lang id="zh" date="20240723215731" status="3">（重新）发送堆栈</lang>
               </row>
               <row id="Height">25</row>
               <row id="Left">505</row>
@@ -271,7 +271,7 @@
               <row id="Height">22</row>
               <row id="Hint">
                 <native>(spaces in name are ignored!)</native>
-                <lang id="zh" date="20240722233255" status="2">在名称中的空格将被忽略</lang>
+                <lang id="zh" date="20240723215741" status="3">名称中的空格将被忽略</lang>
               </row>
               <row id="Left">92</row>
               <row id="Text">-automatic -noreprocessing</row>
@@ -300,7 +300,7 @@
               <row id="Height">22</row>
               <row id="Hint">
                 <native>(spaces in name are ignored!)</native>
-                <lang id="zh" date="20240722233255" status="2">在名称中的空格将被忽略</lang>
+                <lang id="zh" date="20240723215749" status="3">名称中的空格将被忽略</lang>
               </row>
               <row id="Left">92</row>
               <row id="Text">detect.exe</row>
@@ -817,7 +817,7 @@
               <row id="Height">22</row>
               <row id="Hint">
                 <native>(spaces in name are ignored!)</native>
-                <lang id="zh" date="20240722233255" status="2">在名称中的空格将被忽略</lang>
+                <lang id="zh" date="20240723215749" status="3">名称中的空格将被忽略</lang>
               </row>
               <row id="Left">160</row>
               <row id="Text">[bn] [ff] [li] [ei] AS_[sc] [qe] [ac] [ri] [rs]</row>
@@ -847,7 +847,7 @@
               <row id="Height">22</row>
               <row id="Hint">
                 <native>(spaces in name are ignored!)</native>
-                <lang id="zh" date="20240722233255" status="3">在名称中的空格将被忽略</lang>
+                <lang id="zh" date="20240723215749" status="3">名称中的空格将被忽略</lang>
               </row>
               <row id="Left">264</row>
               <row id="Text">[bn] [ff] [li] [ei] [qe] [ac] [ri] [rs]</row>
@@ -1805,7 +1805,7 @@
           <row id="ClientHeight">678</row>
           <row id="ClientWidth">
             <native>1066</native>
-            <lang id="zh" status="3">1122</lang>
+            <lang id="zh" status="3">1066</lang>
           </row>
           <row id="Font.Color">clWindowText</row>
           <row id="Font.Name">Tahoma</row>
@@ -1933,7 +1933,7 @@
               <component class="TVisCheckBox" name="checkClearAP" type="TCheckBox" parentfont="0">
                 <row id="Caption">
                   <native>Clear/Reset APs on file open</native>
-                  <lang id="zh" date="20240722235146" status="3">在打开文件时清除/重置 APs</lang>
+                  <lang id="zh" date="20240723215652" status="3">在打开文件时清除/重置对齐点</lang>
                 </row>
                 <row id="Font.Color">clWindowText</row>
                 <row id="Font.Name">Arial</row>
@@ -2946,7 +2946,10 @@
               <row id="Width">18</row>
             </component>
             <component class="TVisCheckBox" name="checkDrawRef" type="TCheckBox" checked="1" parentfont="0">
-              <row id="Caption">AP</row>
+              <row id="Caption">
+                <native>AP</native>
+                <lang id="zh" date="20240723215802" status="3">对齐点</lang>
+              </row>
               <row id="Font.Color">clWindowText</row>
               <row id="Font.Name">Arial</row>
               <row id="Font.Size">8</row>
@@ -5584,7 +5587,7 @@
             <component class="TVisMenuItem" name="menuMemoryUsage" type="TMenuItem">
               <row id="Caption">
                 <native>Memory Usage</native>
-                <lang id="zh" date="20240722231102" status="3">内存用量</lang>
+                <lang id="zh" date="20240723215558" status="3">内存</lang>
               </row>
               <component class="TVisMenuItem" name="menuBufferingOff" type="TMenuItem">
                 <row id="Caption">
@@ -5869,7 +5872,7 @@
               <component class="TVisMenuItem" name="ShowAutoStakkert3SettingsDirectory1" type="TMenuItem">
                 <row id="Caption">
                   <native>Show AutoStakkert!4 Settings Directory</native>
-                  <lang id="zh" date="20240722232113" status="3">显示AutoStakkert! 4设置目录</lang>
+                  <lang id="zh" date="20240723215610" status="3">打开AutoStakkert! 4设置目录</lang>
                 </row>
               </component>
             </component>
